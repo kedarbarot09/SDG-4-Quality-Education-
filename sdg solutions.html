@@ -1,0 +1,164 @@
+<html>
+<head>
+  <title>Solutions - Digital Literacy Platform</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .overlay {
+      background: rgba(255,255,255,0.9);
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(0, 91, 150, 0.9);
+      padding: 12px 25px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    header h1 { margin: 0; font-size: 1.6rem; }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav li { margin-left: 18px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+    nav a:hover { background: #03396c; }
+    .simple-header {
+      background: rgba(0,91,150,0.9);
+      color: white;
+      text-align: center;
+      padding: 40px 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+    .simple-header h2 { margin: 0 0 8px; }
+    .simple-header p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 40px auto 50px;
+      padding: 0 20px;
+    }
+    .section-title {
+      text-align: center;
+      color: #005b96;
+      margin-bottom: 25px;
+      font-size: 1.7rem;
+    }
+    details {
+      margin-bottom: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: white;
+      border: 1px solid #dde5f2;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+    summary {
+      font-weight: bold;
+      color: #005b96;
+      cursor: pointer;
+      list-style: none;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    summary::before {
+      content: "▶";
+      display: inline-block;
+      margin-right: 8px;
+      font-size: 0.8rem;
+      transform: translateY(-1px);
+    }
+    details[open] summary::before {
+      content: "▼";
+    }
+    details p {
+      margin: 8px 0 0;
+      font-size: 0.94rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #005b96;
+      color: white;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+<div class="overlay">
+  <header>
+    <h1>Digital Literacy Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/sdg/sdg%20home.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/sdg/sdg%20sdg.html">SDG</a></li>
+        <li><a href="http://127.0.0.1:5500/sdg/sdg%20problem.html">Problems</a></li>
+        <li><a href="http://127.0.0.1:5500/sdg/sdg%20solutions.html">Solutions</a></li>
+        <li><a href="http://127.0.0.1:5500/sdg/sdg%20benifits.html">Benefits</a></li>
+        <li><a href="http://127.0.0.1:5500/sdg/purpose.html">Purpose</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="simple-header">
+    <h2>Practical Solutions for Digital Literacy</h2>
+    <p>Strategic actions to make digital education inclusive, scalable, sustainable, and impactful.</p>
+  </section>
+  <section class="content-section">
+    <h2 class="section-title">Key Solutions</h2>
+    <details open>
+      <summary>1. Expand Digital Access</summary>
+      <p>Increase access to affordable devices and ensure reliable internet in underserved areas using offline tools and low-bandwidth platforms.</p>
+    </details>
+    <details>
+      <summary>2. Inclusive Programs for Marginalized Groups</summary>
+      <p>Design digital literacy programs for women, rural communities, and minorities through community technology hubs and locally tailored training.</p>
+    </details>
+    <details>
+      <summary>3. Strengthen Teacher Training</summary>
+      <p>Provide continuous training to educators with digital tools, curriculum-aligned resources, and collaborative learning networks.</p>
+    </details>
+    <details>
+      <summary>4. Localized Digital Content</summary>
+      <p>Create culturally relevant digital learning resources in local languages using videos, interactive apps, and audio-based education.</p>
+    </details>
+    <details>
+      <summary>5. Policy Support and Collaboration</summary>
+      <p>Work with policymakers to ensure funding, supportive frameworks, and long-term scalability of digital literacy initiatives.</p>
+    </details>
+    <details>
+      <summary>6. Promote Public-Private Partnerships</summary>
+      <p>Encourage collaboration between technology companies, educational institutions, and governments to develop innovative digital learning models, tools, and community support systems.</p>
+    </details>
+  </section>
+  <footer>
+    4
+  </footer>
+</div>
+</body>
+</html>

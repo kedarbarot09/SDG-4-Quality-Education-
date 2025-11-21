@@ -1,0 +1,210 @@
+<html>
+<head>
+  <title>Benefits - Digital Literacy Platform</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #233142;
+      background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&q=80&w=1600");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .page-wrapper {
+      background: linear-gradient(135deg, rgba(0, 91, 150, 0.75), rgba(255,255,255,0.85));
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+    header {
+      background: rgba(0, 45, 95, 0.92);
+      padding: 15px 30px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 0.5px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 25px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    nav ul li a:hover {
+      background: #00a8e8;
+      transform: translateY(-1px);
+    }
+    .simple-header {
+      text-align: center;
+      padding: 55px 20px 35px;
+      color: white;
+    }
+    .simple-header h2 {
+      margin: 0 0 10px;
+      font-size: 2.6rem;
+      text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+    }
+    .simple-header p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.02rem;
+    }
+    .content-shell {
+      max-width: 1150px;
+      margin: 0 auto 40px;
+      padding: 25px;
+    }
+    .content-panel {
+      background: rgba(255,255,255,0.92);
+      border-radius: 20px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+      padding: 30px 30px 35px;
+      border: 1px solid rgba(255,255,255,0.7);
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #003f78;
+      margin: 0 0 25px;
+      position: relative;
+    }
+    .section-title::after {
+      display: none;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+    @media (max-width: 900px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+    .card {
+      background: #f7fbff;
+      border-radius: 16px;
+      padding: 18px 18px 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      border: 1px solid #dde8f5;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    }
+    .card::before {
+      display: none;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: #ffffff;
+      box-shadow: 0 14px 35px rgba(0,0,0,0.18);
+    }
+    .badge {
+      display: none;
+    }
+    .card h3 {
+      margin: 6px 0 8px;
+      font-size: 1.2rem;
+      color: #004478;
+    }
+    .card p {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #3c4a5e;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 10px 20px;
+      background: rgba(0, 45, 95, 0.94);
+      color: white;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <h1>Digital Literacy Platform</h1>
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/sdg/sdg%20home.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/sdg/sdg%20sdg.html">SDG</a></li>
+          <li><a href="http://127.0.0.1:5500/sdg/sdg%20problem.html">Problems</a></li>
+          <li><a href="http://127.0.0.1:5500/sdg/sdg%20solutions.html">Solutions</a></li>
+          <li><a href="http://127.0.0.1:5500/sdg/sdg%20benifits.html">Benefits</a></li>
+          <li><a href="http://127.0.0.1:5500/sdg/purpose.html">Purpose</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="simple-header">
+      <h2>Benefits of Digital Literacy & SDG 4</h2>
+      <p>
+        Quality education and digital skills unlock opportunities, reduce inequality,
+        and prepare communities to thrive in a rapidly changing world.
+      </p>
+    </section>
+    <div class="content-shell">
+      <div class="content-panel">
+        <h2 class="section-title">Benefits</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Inclusive & Equitable Education</h3>
+            <p>Ensures free and quality education for all without social or economic barriers.</p>
+          </div>
+          <div class="card">
+            <h3>Skill Development & Employment</h3>
+            <p>Builds strong digital and technical skills for jobs, entrepreneurship, and financial stability.</p>
+          </div>
+          <div class="card">
+            <h3>Reducing Educational Inequality</h3>
+            <p>Supports marginalized and disadvantaged groups with equal learning opportunities.</p>
+          </div>
+          <div class="card">
+            <h3>Improved Learning Environments</h3>
+            <p>Promotes safe, engaging, and technology-enabled learning spaces for lifelong learning.</p>
+          </div>
+          <div class="card">
+            <h3>Global Citizenship & Sustainability</h3>
+            <p>Encourages values like peace, sustainability, human rights, and cultural awareness.</p>
+          </div>
+          <div class="card">
+            <h3>Socio-Economic Growth</h3>
+            <p>Equips individuals with digital literacy necessary for technology-driven career growth.</p>
+          </div>
+          <div class="card">
+            <h3>Social Inclusion & Poverty Reduction</h3>
+            <p>Improves access to information, reduces poverty, and strengthens social participation.</p>
+          </div>
+          <div class="card">
+            <h3>Future-Ready & Resilient Societies</h3>
+            <p>Prepares individuals to adapt, innovate, and respond to digital transformation.</p>
+          </div>         
+        </div>
+      </div>
+    </div>
+    <footer>
+     5
+    </footer>
+  </div>
+</body>
+</html>
